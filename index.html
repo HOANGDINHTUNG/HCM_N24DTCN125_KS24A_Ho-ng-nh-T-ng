@@ -19,24 +19,24 @@
   <link rel="stylesheet" href="style.css" />
   <body>
     <div class="p-5" style="background-color: #2c3e50"><h1>Quản lý Danh Mục Sách</h1></div>
-    <div class="container p-3 mt-5" style="background-color: white; border-radius: 15px;">
+    <div class="container p-3 m-5" style="background-color: white; border-radius: 15px;">
       <form onsubmit="addBook(event)" class="row" id="bookForm">
-        <label for="" class="col-2">Tên sách:</label>
+        <label class="col-2">Tên sách:</label>
         <div class="col-10 mb-5">
           <input type="text" name="name" style="height: 40px" class="col rounded -1"/>
           <div class=" text-danger" id="errorName"></div>
         </div>
-        <label for="" class="col-2">Tác giả:</label>
+        <label class="col-2">Tác giả:</label>
         <div  class="col-10 mb-5">
           <input type="text" name="author" class="col rounded -1" style="height: 40px" />
           <div class=" text-danger" id="errorAuthor"></div>
         </div>
-        <label for="" class="col-2">Năm xuất bản:</label>
+        <label class="col-2">Năm xuất bản:</label>
         <div  class="col-10 mb-5">
           <input type="text" name="publication" class="col rounded -1" style="height: 40px" />
           <div class=" text-danger" id="errorPublication"></div>
         </div>
-        <label for="" class="col-2">Thế loại:</label>
+        <label class="col-2">Thế loại:</label>
         <div  class="col-10 mb-5">
           <input type="text" name="category" class="col rounded -1" style="height: 40px" />
           <div class=" text-danger" id="errorCategory"></div>

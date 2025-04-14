@@ -35,9 +35,10 @@ renderBooks();
 
 // Hàm kiểm tra năm hợp lệ
 function isValidYear(year) {
-  switch (typeof year) {
+    y=Number(year);
+  switch (typeof y) {
     case "number":
-      return Number.isInteger(year) ? (year >= 1000 && year <= 9999 ? true : false) : false;
+      return Number.isInteger(y) ? (y >= 1000 && y <= 9999 ? true : false) : false;
     default:
       return false;
   }
